@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="luogu 1005.cpp">
+    <ClCompile Include="高精度模板.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
