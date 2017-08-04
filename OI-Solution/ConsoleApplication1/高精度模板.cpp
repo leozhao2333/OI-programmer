@@ -25,10 +25,10 @@ struct bign
 	}
 	bign operator=(const char *num)
 	{
-		for (int i = 0; num[i] == '0'; num++)
-			len = strlen(num);
+		for (int i = 0; num[i] == '0'; num++);
+		len = strlen(num);
 		for (int i = 0; i < len; i++)
-			s[i] = num[len - i - 1];
+			s[i] = num[len - i - 1]-'0';
 		return *this;
 	}
 	bign operator +(const bign &b)const //+
