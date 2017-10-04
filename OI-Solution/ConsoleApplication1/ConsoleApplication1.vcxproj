@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="51nod 1859.cpp" />
+    <ClCompile Include="51nod 1611.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{65679D1F-32B1-4CDD-903F-B23D7F38675F}</ProjectGuid>
